@@ -1,0 +1,267 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+body {
+color: #444444;
+font-family: sans-serif;
+border-top: 10px solid #1098ad;
+position: relative;
+}
+
+.container {
+width: 800px;
+/* margin-left: auto;
+margin-right: auto; */
+margin: 0 auto;
+
+}
+
+h1 {
+color: #1098ad;
+font-size: 26px;
+text-transform:uppercase;
+font-style: italic;
+}
+
+h2    {
+font-size: 40px;
+
+}
+
+h1, h2, h3 {
+color: #1098ad
+
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+li {
+    font-family: sans-serif;
+}
+
+h3 {
+font-size: 30px;
+margin-bottom: 15px;
+margin-top: 50;
+
+}
+
+h4   {
+font-size: 20px;
+
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 20px;
+}
+
+
+
+p   {
+font-size: 22px;
+
+line-height: 1.5;
+margin-bottom: 15px;
+/* display: inline; */
+}
+
+li{
+font-size: 20px;
+margin-bottom: 10px;
+margin-top: 20px;
+/* display: inline; */
+}
+
+li:last-child {
+margin-bottom: 0;
+
+
+}
+/* footer p {
+
+    font-size: 16px;
+} */
+
+/*article header p{
+font-style: italic; }*/
+
+#copyright {
+    font-size: 16px;
+}
+
+#author {
+font-style: italic;
+font-size: 18px;
+
+
+}
+
+.related-aut {
+font-size: 18px;
+font-weight: bold;
+
+
+}
+
+/* aside ul{
+list-style: none;
+
+
+}  */
+
+#related {
+    list-style: none;
+}
+
+.main_header {
+background-color: #562a2a;
+/* padding: 140px; */
+/* padding-left: 40px;
+padding-right: 40px; */
+padding: 80px 40px;
+margin-bottom: 80px;
+height: 80px;
+}
+
+
+
+
+aside  {
+    background-color: #562a2a;
+    /* border: 5px solid #1098ad; */
+
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    padding: 50px 0px;
+margin-bottom: 60px;
+margin-left: 300px;
+width: 500px;
+}
+
+nav {
+    font-size: 20px;
+
+
+}
+
+nav a:link {
+background-color: blue;
+margin: 20px;
+pad: 20px;
+
+
+
+}
+
+article {
+margin-bottom: 60px;
+
+}
+
+
+/* .first-li {
+    font-weight: bold;
+} */
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child{
+    font-style: italic;
+}
+/* odd - niepatrzyste, even - parzyste */
+
+li:nth-child(odd){
+    color: red;
+}
+
+article p:last-child {
+    color: red
+}
+
+/* stylowanie odnosnikow */
+a {
+color: red;
+
+}
+/* 
+}
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+/* a:visited {
+color: blue;
+
+} */
+
+/*
+a:visited {
+    color:#1098ad
+}
+
+a:hover {
+
+    color:pink;
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+} */
+
+
+
+zabawa z konfliktami
+
+#copyright {
+    color: red;
+    
+    } 
+
+
+#copyright-text {
+color: yellow;
+
+}
+
+
+
+footer p {
+
+    color: green !important;
+}
+
+
+.post-img {
+width: 100%;
+height: auto;
+
+
+
+}
+
+/* pozycjonowanie przycisku like */
+
+#like {
+font-size: 22px;
+padding: 20px;
+cursor: pointer;
+position: absolute;
+bottom: 50px;
+right: 50px;
+
+
+}
